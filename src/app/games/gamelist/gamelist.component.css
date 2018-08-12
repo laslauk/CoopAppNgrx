@@ -1,0 +1,13 @@
+li{
+    cursor: pointer;
+    padding:10px;
+    border: 1px solid black;
+    display:block;
+    max-width:200px;
+}
+
+
+li:hover{
+    color:beige;
+    background-color: darkcyan;
+}

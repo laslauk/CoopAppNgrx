@@ -1,0 +1,11 @@
+<p>
+  gamelist works!
+
+
+</p>
+<button (click) = "onGetGames()"> Get Games </button>
+<div id="gamediv">
+  <ul>
+<li *ngFor="let game of gameObj"> {{game.title}}</li>
+</ul>
+</div>
